@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="Bernadette_Laboratory"
+  id="myeclipse.1464356945426"
+  context-root="/Bernadette_Laboratory"
+  j2ee-spec="5.0"
+  archive="Bernadette_Laboratory.war">
+  <attributes>
+    <attribute name="webrootdir" value="/WebRoot" />
+  </attributes>
+</project-module>
+
