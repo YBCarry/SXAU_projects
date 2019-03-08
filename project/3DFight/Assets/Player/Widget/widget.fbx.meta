@@ -1,0 +1,777 @@
+fileFormatVersion: 2
+guid: ade03d7731424ec40ad5967aa487c874
+timeCreated: 1500297794
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: antenna_base
+    100002: antenna_tip
+    100004: Body
+    100006: chest
+    100008: head
+    100010: l_eye
+    100012: l_shoulder
+    100014: l_shoulder_socket
+    100016: l_wheel
+    100018: l_wheel_axel
+    100020: lower_swivel
+    100022: mid_torso
+    100024: midswivel
+    100026: neck
+    100028: r_eye
+    100030: r_shoulder
+    100032: r_shoulder_socket
+    100034: r_wheel
+    100036: r_wheer_axel
+    100038: root
+    100040: Wheels
+    100042: //RootNode
+    400000: antenna_base
+    400002: antenna_tip
+    400004: Body
+    400006: chest
+    400008: head
+    400010: l_eye
+    400012: l_shoulder
+    400014: l_shoulder_socket
+    400016: l_wheel
+    400018: l_wheel_axel
+    400020: lower_swivel
+    400022: mid_torso
+    400024: midswivel
+    400026: neck
+    400028: r_eye
+    400030: r_shoulder
+    400032: r_shoulder_socket
+    400034: r_wheel
+    400036: r_wheer_axel
+    400038: root
+    400040: Wheels
+    400042: //RootNode
+    4300000: Body
+    4300002: Wheels
+    7400000: ShowRoll
+    7400002: FastRoll
+    7400004: Taser
+    7400006: GotHit
+    7400008: Duck
+    7400010: Jump
+    7400012: FallDown
+    7400014: Idle
+    7400016: Die
+    9500000: //RootNode
+    13700000: Body
+    13700002: Wheels
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: ShowRoll
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/l_wheel_axel
+        weight: 1
+      - path: root/l_wheel_axel/l_wheel
+        weight: 1
+      - path: root/lower_swivel
+        weight: 1
+      - path: root/lower_swivel/mid_torso
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/l_shoulder_socket
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/l_shoulder_socket/l_shoulder
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head/antenna_base
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head/antenna_base/antenna_tip
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head/l_eye
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head/r_eye
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/r_shoulder_socket
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/r_shoulder_socket/r_shoulder
+        weight: 1
+      - path: root/r_wheer_axel
+        weight: 1
+      - path: root/r_wheer_axel/r_wheel
+        weight: 1
+      - path: Wheels
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: FastRoll
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 53
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/l_wheel_axel
+        weight: 1
+      - path: root/l_wheel_axel/l_wheel
+        weight: 1
+      - path: root/lower_swivel
+        weight: 1
+      - path: root/lower_swivel/mid_torso
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/l_shoulder_socket
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/l_shoulder_socket/l_shoulder
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head/antenna_base
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head/antenna_base/antenna_tip
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head/l_eye
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head/r_eye
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/r_shoulder_socket
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/r_shoulder_socket/r_shoulder
+        weight: 1
+      - path: root/r_wheer_axel
+        weight: 1
+      - path: root/r_wheer_axel/r_wheel
+        weight: 1
+      - path: Wheels
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Taser
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 83
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/l_wheel_axel
+        weight: 1
+      - path: root/l_wheel_axel/l_wheel
+        weight: 1
+      - path: root/lower_swivel
+        weight: 1
+      - path: root/lower_swivel/mid_torso
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/l_shoulder_socket
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/l_shoulder_socket/l_shoulder
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head/antenna_base
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head/antenna_base/antenna_tip
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head/l_eye
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head/r_eye
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/r_shoulder_socket
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/r_shoulder_socket/r_shoulder
+        weight: 1
+      - path: root/r_wheer_axel
+        weight: 1
+      - path: root/r_wheer_axel/r_wheel
+        weight: 1
+      - path: Wheels
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: GotHit
+      takeName: Take 001
+      firstFrame: 90
+      lastFrame: 101
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/l_wheel_axel
+        weight: 1
+      - path: root/l_wheel_axel/l_wheel
+        weight: 1
+      - path: root/lower_swivel
+        weight: 1
+      - path: root/lower_swivel/mid_torso
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/l_shoulder_socket
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/l_shoulder_socket/l_shoulder
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head/antenna_base
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head/antenna_base/antenna_tip
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head/l_eye
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head/r_eye
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/r_shoulder_socket
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/r_shoulder_socket/r_shoulder
+        weight: 1
+      - path: root/r_wheer_axel
+        weight: 1
+      - path: root/r_wheer_axel/r_wheel
+        weight: 1
+      - path: Wheels
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Duck
+      takeName: Take 001
+      firstFrame: 105
+      lastFrame: 128
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/l_wheel_axel
+        weight: 1
+      - path: root/l_wheel_axel/l_wheel
+        weight: 1
+      - path: root/lower_swivel
+        weight: 1
+      - path: root/lower_swivel/mid_torso
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/l_shoulder_socket
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/l_shoulder_socket/l_shoulder
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head/antenna_base
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head/antenna_base/antenna_tip
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head/l_eye
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head/r_eye
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/r_shoulder_socket
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/r_shoulder_socket/r_shoulder
+        weight: 1
+      - path: root/r_wheer_axel
+        weight: 1
+      - path: root/r_wheer_axel/r_wheel
+        weight: 1
+      - path: Wheels
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jump
+      takeName: Take 001
+      firstFrame: 135
+      lastFrame: 147
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/l_wheel_axel
+        weight: 1
+      - path: root/l_wheel_axel/l_wheel
+        weight: 1
+      - path: root/lower_swivel
+        weight: 1
+      - path: root/lower_swivel/mid_torso
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/l_shoulder_socket
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/l_shoulder_socket/l_shoulder
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head/antenna_base
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head/antenna_base/antenna_tip
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head/l_eye
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head/r_eye
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/r_shoulder_socket
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/r_shoulder_socket/r_shoulder
+        weight: 1
+      - path: root/r_wheer_axel
+        weight: 1
+      - path: root/r_wheer_axel/r_wheel
+        weight: 1
+      - path: Wheels
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: FallDown
+      takeName: Take 001
+      firstFrame: 150
+      lastFrame: 162
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/l_wheel_axel
+        weight: 1
+      - path: root/l_wheel_axel/l_wheel
+        weight: 1
+      - path: root/lower_swivel
+        weight: 1
+      - path: root/lower_swivel/mid_torso
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/l_shoulder_socket
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/l_shoulder_socket/l_shoulder
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head/antenna_base
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head/antenna_base/antenna_tip
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head/l_eye
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head/r_eye
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/r_shoulder_socket
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/r_shoulder_socket/r_shoulder
+        weight: 1
+      - path: root/r_wheer_axel
+        weight: 1
+      - path: root/r_wheer_axel/r_wheel
+        weight: 1
+      - path: Wheels
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 170
+      lastFrame: 242
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/l_wheel_axel
+        weight: 1
+      - path: root/l_wheel_axel/l_wheel
+        weight: 1
+      - path: root/lower_swivel
+        weight: 1
+      - path: root/lower_swivel/mid_torso
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/l_shoulder_socket
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/l_shoulder_socket/l_shoulder
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head/antenna_base
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head/antenna_base/antenna_tip
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head/l_eye
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head/r_eye
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/r_shoulder_socket
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/r_shoulder_socket/r_shoulder
+        weight: 1
+      - path: root/r_wheer_axel
+        weight: 1
+      - path: root/r_wheer_axel/r_wheel
+        weight: 1
+      - path: Wheels
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Die
+      takeName: Take 001
+      firstFrame: 255
+      lastFrame: 322
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/l_wheel_axel
+        weight: 1
+      - path: root/l_wheel_axel/l_wheel
+        weight: 1
+      - path: root/lower_swivel
+        weight: 1
+      - path: root/lower_swivel/mid_torso
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/l_shoulder_socket
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/l_shoulder_socket/l_shoulder
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head/antenna_base
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head/antenna_base/antenna_tip
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head/l_eye
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/neck/head/r_eye
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/r_shoulder_socket
+        weight: 1
+      - path: root/lower_swivel/mid_torso/midswivel/chest/r_shoulder_socket/r_shoulder
+        weight: 1
+      - path: root/r_wheer_axel
+        weight: 1
+      - path: root/r_wheer_axel/r_wheel
+        weight: 1
+      - path: Wheels
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
