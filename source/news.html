@@ -1,0 +1,538 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>新闻中心</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Power Tech Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android  Compatible web template,Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+ <!-- Bootstrap core JavaScript-->
+<!-- Placed at the end of the document so the pages load faster -->
+<!--bootstrap-->
+			<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<!--css-->
+			<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+		<!--coustom css-->
+			<link href="css/style.css" rel="stylesheet" type="text/css"/>
+		<!--default-js-->
+			<script src="js/jquery-2.1.4.min.js"></script>
+		<!--bootstrap-js-->
+			<script src="js/bootstrap.min.js"></script>
+
+<!-- js -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<!--/script-->
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
+</head>
+
+<!-- 标题栏顶部 -->
+<div class="header">
+	<div class="banner-top">
+			<div class="container">
+				<p class="location"><i class="glyphicon glyphicon-map-marker"> </i>南京, 中国</p>
+					<div class="clearfix"> </div>
+			</div>
+	</div>
+		<div class="logo"><a href="index.html"><h1>电力企业介绍首页</h1></a> </div>
+</div>
+<!-- 页面导航 -->
+<div class="navigation">
+	<div class="container">
+		<div class="header-nav">
+			<!-- navigation -->
+<div class="navigation">
+	<nav class="navbar navbar-default">
+		 
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+				  <ul class="nav navbar-nav">
+					  <li class="hvr-bounce-to-bottom"><a href="index.html">首页 <span class="sr-only">(current)</span></a></li>
+					  <li class="hvr-bounce-to-bottom active"><a href="news.html">新闻中心</a></li>
+					  <li class="hvr-bounce-to-bottom"><a href="culture.html">企业文化</a></li>
+					  <li class="hvr-bounce-to-bottom"><a href="science.html">科技创新</a></li>
+					  <li class="hvr-bounce-to-bottom"><a href="about.html">关于我们</a></li>
+					  <li class="hvr-bounce-to-bottom"><a href="contact.html">联系我们</a></li>
+				  </ul>
+			  <div class="clearfix"></div>
+			</div><!-- /.navbar-collapse -->
+		</nav>
+	</div>
+</div>
+<!-- //navigation -->
+		<!-- script-for-menu -->
+		<script>
+			$("span.menu").click(function(){
+				$(".top-nav ul").slideToggle("slow" , function(){
+				});
+			});
+		</script>
+		<!-- script-for-menu -->
+		</div>
+	</div>
+
+<!-- 顶部标题语-->
+<div class="banner banner5">
+	<div class="container">
+		<h2 >新闻中心</h2>
+	</div>
+</div>
+
+<!--企业要闻-->
+<div class="welcome">
+	<div class="container">
+		<div class="col-md-6 wel-img">
+			<a class="mask"><img src="images/dian5.jpg" alt="image" class="img-responsive zoom-img"/></a>
+		</div>
+		<div class="col-md-6 wel-text">
+			<h4>企业要闻</h4>
+			<div class="bs-docs-example">
+				<table id="table_qiyeyaowen" class="table table-hover" onclick="getQiyeyaowenTableId()">
+					<thead>
+					<tr>
+						<th>#</th>
+						<th>标题</th>
+						<th>关键字</th>
+						<th>发布时间</th>
+					</tr>
+					</thead>
+					<tbody>
+					<tr>
+						<td>1</td>
+						<td>Mark</td>
+						<td>Otto</td>
+						<td>@mdo</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>Jacob</td>
+						<td>Thornton</td>
+						<td>@fat</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>Jacob</td>
+						<td>Thornton</td>
+						<td>@fat</td>
+					</tr>
+					</tbody>
+				</table>
+			</div>
+			<button class="hvr-shutter-in-horizontal" onclick="getQiyeyaowenMore()">查看更多...</button>
+		</div>
+	</div>
+</div>
+<!--/企业要闻-->
+
+<!--企业动态-->
+<div class="welcome">
+	<div class="container">
+		<div class="col-md-6 wel-text">
+			<h4>企业动态</h4>
+			<div class="bs-docs-example">
+				<table id="table_qiyedongtai" class="table table-hover" onclick="getQiyedongtaiTableId()">
+					<thead>
+					<tr>
+						<th>#</th>
+						<th>标题</th>
+						<th>关键字</th>
+						<th>发布时间</th>
+					</tr>
+					</thead>
+					<tbody>
+					<tr>
+						<td>1</td>
+						<td>Mark</td>
+						<td>Otto</td>
+						<td>@mdo</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>Jacob</td>
+						<td>Thornton</td>
+						<td>@fat</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>Jacob</td>
+						<td>Thornton</td>
+						<td>@fat</td>
+					</tr>
+					</tbody>
+				</table>
+			</div>
+			<button onclick="getQiyedongtaiMore()" class="hvr-shutter-in-horizontal">查看更多...</button>
+		</div>
+		<div class="col-md-6 wel-img">
+			<a class="mask"><img src="images/dian3.jpg" alt="image" class="img-responsive zoom-img"/></a>
+		</div>
+	</div>
+</div>
+<!--/企业动态-->
+
+<!--国资网讯-->
+<div class="welcome">
+	<div class="container">
+		<div class="col-md-6 wel-img">
+			<a class="mask"><img src="images/dian1.jpg" alt="image" class="img-responsive zoom-img"/></a>
+		</div>
+		<div class="col-md-6 wel-text">
+			<h4>国资网讯</h4>
+			<div class="bs-docs-example">
+				<table id="table_guoziwangxun" class="table table-hover" onclick="getGuoziwangxunTableId()">
+					<thead>
+					<tr>
+						<th>#</th>
+						<th>标题</th>
+						<th>关键字</th>
+						<th>发布时间</th>
+					</tr>
+					</thead>
+					<tbody>
+					<tr>
+						<td>1</td>
+						<td>Mark</td>
+						<td>Otto</td>
+						<td>@mdo</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>Jacob</td>
+						<td>Thornton</td>
+						<td>@fat</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>Jacob</td>
+						<td>Thornton</td>
+						<td>@fat</td>
+					</tr>
+					</tbody>
+				</table>
+			</div>
+			<button onclick="getGuoziwangxunMore()" class="hvr-shutter-in-horizontal">查看更多...</button>
+		</div>
+	</div>
+</div>
+<!--/国资网讯-->
+
+
+<!-- 页尾 footer-->
+<div class="copyrights">
+<div class="container">
+			<div class="copyright-left">
+			<p>Copyright &copy; 2019 -- Designed By Bernadette-ybcarry-electric&nbsp;&nbsp;&nbsp;版权所有</p>
+			</div>
+			<div class="copyright-right">
+				<ul>
+					<li><a href="#" class="twitter"> </a></li>
+					<li><a href="#" class="twitter facebook"> </a></li>
+					<li><a href="#" class="twitter chrome"> </a></li>
+					<li><a href="#" class="twitter pinterest"> </a></li>
+					<li><a href="#" class="twitter linkedin"> </a></li>
+					<li><a href="#" class="twitter dribbble"> </a></li>
+				</ul>
+			</div>
+			<div class="clearfix"> </div>
+			
+		</div>
+<!--尾部返回头部-->
+<script type="text/javascript">
+		$(document).ready(function() {
+				/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+				*/
+		$().UItoTop({ easingType: 'easeOutQuart' });
+});
+</script>
+<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!--/尾部返回头部-->
+</div>
+
+<!-- 数据获取以及分配 -->
+<script>
+    //获取拼接url
+    var server_protocol = window.location.protocol;
+    var server_host = window.location.host;
+    var server_port = window.location.port;
+    var serverurl =  server_protocol+"//"+server_host+"/";
+
+</script>
+
+<!-- 企业要闻 -->
+<script>
+
+    $.ajax({
+        url: serverurl+"queryqiyeyaowenInterface",
+        datatype: "json",
+        type: 'get',
+        async:true,
+        success: function (results) {
+            //成功后回调
+            //alert("回调函数成功了");
+            parseJsondataqiyeyaowen(results);
+        },
+        error: function(error){
+            //失败后回调
+            alert("企业要闻_服务器请求失败");
+
+        },
+    })
+
+    function parseJsondataqiyeyaowen(results) {
+
+        //jquery操作table
+
+		//清空表格
+        $("#table_qiyeyaowen tr:not(:first)").remove();
+
+
+        //json数组的话用for循环遍历
+		 for (i=0; i<3; i++){
+             var tmp_id = results[i].id;
+             var tmp_title = results[i].title;
+             var tmp_keyword1 = results[i].keyword1;
+             var tmp_time = results[i].fabushijian;
+
+             // 插入一行
+             var trHTML = "<tr><td>"+tmp_id+"</td><td>"+tmp_title+"</td><td>"+tmp_keyword1+"</td><td>"+tmp_time+"</td></tr>";
+             $("#table_qiyeyaowen").append(trHTML);//在table最后面添加一行
+         }
+
+    }
+</script>
+
+<script>
+
+	function getQiyeyaowenTableId() {
+
+        $("#table_qiyeyaowen tr").click(function(){
+
+            var tager =$(this).children("td").eq(0).text();//获取table 一行的第一列的值
+			var qiyeyaowenparam =
+			    "urlextend"+"="+serverurl+"queryqiyeyaowenInterface"+"&"+
+                "dataid"+"="+tager+"&"+
+                "navigate1"+"="+encodeURI("新闻中心")+"&"+
+               "navigate1url"+"="+"news.html"+"&"+
+                "navigate2"+"="+encodeURI("企业要闻")+"&"+
+                "navigate2url"+"="+"news.html";
+
+			var tmpurl = "?"+qiyeyaowenparam;
+            window.location.href="single.html"+tmpurl;
+        })
+    }
+
+</script>
+
+<script>
+
+    function getQiyeyaowenMore() {
+
+            var qiyeyaowenparam =
+                "urlextend"+"="+serverurl+"queryqiyeyaowenInterface"+"&"+
+                "navigate1"+"="+encodeURI("新闻中心")+"&"+
+                "navigate1url"+"="+"news.html"+"&"+
+                "navigate2"+"="+encodeURI("企业要闻")+"&"+
+                "navigate2url"+"="+"news.html";
+
+            var tmpurl = "?"+qiyeyaowenparam;
+            window.location.href="more.html"+tmpurl;
+    }
+
+</script>
+<!-- /企业要闻 -->
+
+<!-- 企业动态 -->
+<script>
+
+    $.ajax({
+        url: serverurl+"queryqiyedongtaiInterface",
+        datatype: "json",
+        type: 'get',
+        async:true,
+        success: function (results) {
+            //成功后回调
+            //alert("回调函数成功了");
+            parseJsondataqiyedongtai(results);
+        },
+        error: function(error){
+            //失败后回调
+            alert("企业动态_服务器请求失败");
+
+        },
+    })
+
+    function parseJsondataqiyedongtai(results) {
+
+        //jquery操作table
+
+        //清空表格
+        $("#table_qiyedongtai tr:not(:first)").remove();
+
+
+        //json数组的话用for循环遍历
+        for (i=0; i<3; i++){
+            var tmp_id = results[i].id;
+            var tmp_title = results[i].title;
+            var tmp_keyword1 = results[i].keyword1;
+            var tmp_time = results[i].fabushijian;
+
+            // 插入一行
+            var trHTML = "<tr><td>"+tmp_id+"</td><td>"+tmp_title+"</td><td>"+tmp_keyword1+"</td><td>"+tmp_time+"</td></tr>";
+            $("#table_qiyedongtai").append(trHTML);//在table最后面添加一行
+        }
+
+    }
+</script>
+
+<script>
+
+    function getQiyedongtaiTableId() {
+
+        $("#table_qiyedongtai tr").click(function(){
+
+            var tager =$(this).children("td").eq(0).text();//获取table 一行的第一列的值
+            var qiyedongtaiparam =
+                "urlextend"+"="+serverurl+"queryqiyedongtaiInterface"+"&"+
+                "dataid"+"="+tager+"&"+
+                "navigate1"+"="+encodeURI("新闻中心")+"&"+
+                "navigate1url"+"="+"news.html"+"&"+
+                "navigate2"+"="+encodeURI("企业动态")+"&"+
+                "navigate2url"+"="+"news.html";
+
+            var tmpurl = "?"+qiyedongtaiparam;
+            window.location.href="single.html"+tmpurl;
+        })
+    }
+
+</script>
+
+<script>
+
+    function getQiyedongtaiMore() {
+
+        var param =
+            "urlextend"+"="+serverurl+"queryqiyedongtaiInterface"+"&"+
+            "navigate1"+"="+encodeURI("新闻中心")+"&"+
+            "navigate1url"+"="+"news.html"+"&"+
+            "navigate2"+"="+encodeURI("企业动态")+"&"+
+            "navigate2url"+"="+"news.html";
+
+        var tmpurl = "?"+param;
+        window.location.href="more.html"+tmpurl;
+    }
+
+</script>
+<!-- /企业动态 -->
+
+<!-- 国资网讯 -->
+<script>
+
+    $.ajax({
+        url: serverurl+"queryguoziwangxunInterface",
+        datatype: "json",
+        type: 'get',
+        async:true,
+        success: function (results) {
+            //成功后回调
+            //alert("回调函数成功了");
+            parseJsondataguoziwangxun(results);
+        },
+        error: function(error){
+            //失败后回调
+            alert("国资网讯_服务器请求失败");
+
+        },
+    })
+
+    function parseJsondataguoziwangxun(results) {
+
+        //jquery操作table
+
+        //清空表格
+        $("#table_guoziwangxun tr:not(:first)").remove();
+
+
+        //json数组的话用for循环遍历
+        for (i=0; i<3; i++){
+            var tmp_id = results[i].id;
+            var tmp_title = results[i].title;
+            var tmp_keyword1 = results[i].keyword1;
+            var tmp_time = results[i].fabushijian;
+
+            // 插入一行
+            var trHTML = "<tr><td>"+tmp_id+"</td><td>"+tmp_title+"</td><td>"+tmp_keyword1+"</td><td>"+tmp_time+"</td></tr>";
+            $("#table_guoziwangxun").append(trHTML);//在table最后面添加一行
+        }
+
+    }
+</script>
+
+<script>
+
+    function getGuoziwangxunTableId() {
+
+        $("#table_guoziwangxun tr").click(function(){
+
+            var tager =$(this).children("td").eq(0).text();//获取table 一行的第一列的值
+            var guoziwangxunparam =
+                "urlextend"+"="+serverurl+"queryguoziwangxunInterface"+"&"+
+                "dataid"+"="+tager+"&"+
+                "navigate1"+"="+encodeURI("新闻中心")+"&"+
+                "navigate1url"+"="+"news.html"+"&"+
+                "navigate2"+"="+encodeURI("国资网讯")+"&"+
+                "navigate2url"+"="+"news.html";
+
+            var tmpurl = "?"+guoziwangxunparam;
+            window.location.href="single.html"+tmpurl;
+        })
+    }
+
+</script>
+
+<script>
+
+    function getGuoziwangxunMore() {
+
+        var param =
+            "urlextend"+"="+serverurl+"queryguoziwangxunInterface"+"&"+
+            "navigate1"+"="+encodeURI("新闻中心")+"&"+
+            "navigate1url"+"="+"news.html"+"&"+
+            "navigate2"+"="+encodeURI("国资网讯")+"&"+
+            "navigate2url"+"="+"news.html";
+
+        var tmpurl = "?"+param;
+        window.location.href="more.html"+tmpurl;
+    }
+
+</script>
+<!-- /国资网讯 -->
+
+
+
+</body>
+</html>		

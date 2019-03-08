@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JsonTest</title>
+    <!-- js 引入 -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/json2.js"></script>
+    <script>
+
+    $.ajax({      
+            url: 'http://localhost:8080/queryqiyeyaowenInterface',      
+            datatype: "json",      
+            type: 'get',    
+            async:true,
+            success: function (e) {      
+            //成功后回调      
+                alert("回调函数成功了");  
+            	alert(e);
+             },      
+            error: function(e){      
+            //失败后回调      
+                alert("服务器请求失败");      
+            },      
+            beforeSend: function(){      
+            //发送请求前调用，可以放一些"正在加载"之类额话      
+                alert("正在加载");           
+    }}) 
+
+    </script>
+
+</head>
+<body>
+	
+
+</body>
+</html>
